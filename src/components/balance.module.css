@@ -1,0 +1,28 @@
+.balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: clamp(300px, 90%, 500px);
+  margin-inline: auto;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 15px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.balance_text p {
+  margin-bottom: 0.4rem;
+  opacity: 0.9;
+}
+.balance_text h1 {
+  letter-spacing: 1px;
+}
+
+.balance_image {
+  padding: 1rem;
+}
+.balance_image > img {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+}

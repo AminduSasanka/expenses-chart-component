@@ -1,0 +1,55 @@
+.chart {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.chart .chart_segment {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.chart .chart_segment > p {
+  opacity: 0.8;
+  font-size: 0.7rem;
+}
+
+.chart_bar {
+  width: 80%;
+  margin-inline: auto;
+  height: 150px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.chart_bar:hover {
+  background-color: hsl(10, 99%, 80%);
+}
+.max {
+  background-color: hsl(186, 34%, 60%);
+}
+.chart_bar.max:hover {
+  background-color: hsla(186, 34%, 60%, 0.555);
+}
+
+.chart_bar .chart_tooltip {
+  opacity: 0;
+  transform: translateY(10px);
+  position: absolute;
+  top: -35px;
+  left: -5px;
+  right: -5px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: #fff;
+  transition: all 0.2s linear;
+}
+.chart_tooltip.active {
+  opacity: 1;
+  transform: translateY(0px);
+}

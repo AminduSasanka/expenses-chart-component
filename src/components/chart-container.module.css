@@ -1,0 +1,38 @@
+.chartContainer {
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1.5rem;
+  width: clamp(300px, 90%, 500px);
+}
+
+.chartContainer > h1 {
+  text-align: left;
+  color: hsl(25, 47%, 15%);
+}
+
+.chartContainer .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.chartContainer .total_left p {
+  opacity: 0.5;
+  font-weight: 700;
+}
+.chartContainer .total_left h1 {
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+  color: hsl(25, 47%, 15%);
+}
+.chartContainer .total_right h4 {
+  text-align: right;
+  color: hsl(25, 47%, 15%);
+}
+.chartContainer .total_right p {
+  opacity: 0.5;
+  font-weight: 700;
+}
