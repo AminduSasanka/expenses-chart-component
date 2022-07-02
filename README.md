@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- github repo URL: [https://github.com/AminduSasanka/expenses-chart-component-react](https://github.com/AminduSasanka/expenses-chart-component-react)
+- github repo URL: [https://github.com/AminduSasanka/expenses-chart-component](https://github.com/AminduSasanka/expenses-chart-component)
 - Live Site URL: [https://blogr-by-amindu.netlify.app/](https://blogr-by-amindu.netlify.app/)
 
 ## My process
